@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Ddalgi Talk</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-sharp fa-solid fa-wifi"></i>
+        <!-- Wifi Icon -->
+      </div>
+      <div class="status-bar__column">
+        <span>18:34</span>
+      </div>
+      <div class="status-bar__column">
+        <span>11%</span>
+        <i class="fa-solid fa-battery-half"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">Welcome to Ddalgi Talk</h1>
+      <p class="welcome-header__text">
+        if you have a Ddalgi Account, log in with your email or phone number.
+      </p>
+    </header>
+
+    <!-- 전체코드 중 form이 하나일 예정이라 id를 주어줌. -->
+    <form id="login-form">
+      <input type="text" placeholder="Email or phone number" />
+      <input type="password" placeholder="Password" />
+      <input type="submit" value="Log In" />
+      <input type="submit" value="Sign Up" />
+      <a href="#">Find Ddalgi Account or Password</a>
+    </form>
+
+    <script
+      src="https://kit.fontawesome.com/8adf1c13b4.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
