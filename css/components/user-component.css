@@ -1,14 +1,31 @@
+.user-component {
+    justify-content: space-between;
+}
+
 
 .user-component, .user-component__column:first-child {
     display: flex;
     align-items: center;
 }
+/* The size of the profile imgs  */
 
 .user-component__img {
     width: 70px;
     height: 70px;
-    border-radius: 28px;
+    border-radius: 30px;
     margin-right: 20px;
+    
+}
+
+.user-component__img--sm {
+    width: 55px;
+    height: 55px;
+    border-radius: 20px;
+}
+
+.user-component__img--xl {
+    width: 80px;
+    height: 80px;
 }
 
 .user-component__name {
@@ -16,8 +33,24 @@
     font-size: 18px; 
 }
 
+.user-component__name--light {
+    font-weight: 400;
+}
+
 .user-component__message {
     color: rgba(0,0,0,0.5);
     font-size: 16px; 
     margin-top: 10px;
+}
+
+
+.friends-screen__channel {
+    margin-top: 30px;
+    border-top: 1px solid rgba(0,0,0,0.2);
+    padding-top: 15px;
+
+}
+
+.user-component__column:nth-child(2) {
+    color: rgba(0,0,0,0.4);
 }

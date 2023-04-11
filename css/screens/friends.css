@@ -4,10 +4,25 @@
     background-color: #fafafa;
     padding: 15px 0px;
     align-items: center;
-    font-size: 17px;
+    font-size: 18px;
+    margin-bottom: 15px;
 }
 
 #friends-display-link i {
     color: rgba(0,0,0,0.2);
     margin: 0px 10px;
+}
+
+.friends-screen {
+    padding: 0px var(--horizontal-space);
+}
+
+
+/* channel */
+
+.friends-screen__channel-header {
+    display: flex;
+    justify-content: space-between;
+    color: rgba(0,0,0,0.4);
+    margin-bottom: 30px;
 }
