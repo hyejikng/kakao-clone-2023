@@ -1,0 +1,23 @@
+
+.user-component, .user-component__column:first-child {
+    display: flex;
+    align-items: center;
+}
+
+.user-component__img {
+    width: 70px;
+    height: 70px;
+    border-radius: 28px;
+    margin-right: 20px;
+}
+
+.user-component__name {
+    font-weight: 600;
+    font-size: 18px; 
+}
+
+.user-component__message {
+    color: rgba(0,0,0,0.5);
+    font-size: 16px; 
+    margin-top: 10px;
+}
