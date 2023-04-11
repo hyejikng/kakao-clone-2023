@@ -33,9 +33,11 @@
     </header>
 
     <!-- 전체코드 중 form이 하나일 예정이라 id를 주어줌. -->
-    <form id="login-form">
-      <input type="text" placeholder="Email or phone number" />
-      <input type="password" placeholder="Password" />
+    <!-- post는 백앤드에서 서버를 보내주는 방식. 현재는 서버가 없으므로 get method 사용 -->
+    <!-- form에서 action은 form을 받는(연결되는) 다음 페이지 -->
+    <form action="friends.html" method="get" id="login-form">
+      <input name="username" type="text" placeholder="Email or phone number" />
+      <input name="password" type="password" placeholder="Password" />
       <input type="submit" value="Log In" />
       <input type="submit" value="Sign Up" />
       <a href="#">Find Ddalgi Account or Password</a>
