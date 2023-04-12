@@ -1,0 +1,13 @@
+.user-component__exclamation {
+    display: flex;
+    align-items: center;
+}
+
+.user-component__exclamation i {
+    margin: 10px 0px 0px 5px;
+    color: rgba(255, 99, 71, 0.7);
+}
+
+.user-component__column:nth-child(2) i {
+    color: #2e363e;
+}
