@@ -57,6 +57,8 @@
 /* Open Chat - Open Post */
 .open-post {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 
@@ -98,4 +100,30 @@
 
 .open-post__members-status {
     color: rgba(249, 63, 172, 0.881);
+}
+
+.open-post__column-right {
+    position: relative;
+}
+.open-post__column-right img {
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+}
+
+.open-post__column-right_like {
+    background-color: var(--gray);
+    font-size: 12px;
+    color: white;
+    padding: 5px 8px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom:10px;
+    right: 6px;
+}
+
+.open-post__column-right_like span {
+    margin-left: 4px;
 }
