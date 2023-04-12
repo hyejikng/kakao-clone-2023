@@ -25,12 +25,7 @@
 }
 
 .nav__dot {
-    width: 5px;
-    height: 5px;
-    border-radius: 50%;
-    background-color: tomato;
     position: absolute;
     bottom: 20px;
     left: 22px;
-
 }
