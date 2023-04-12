@@ -5,18 +5,14 @@
     padding: 15px 0px;
     align-items: center;
     font-size: 18px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
+    margin-top: -30px;
 }
 
 #friends-display-link i {
     color: rgba(0,0,0,0.2);
     margin: 0px 10px;
 }
-
-.friends-screen {
-    padding: 0px var(--horizontal-space);
-}
-
 
 /* channel */
 
