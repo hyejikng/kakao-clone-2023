@@ -91,3 +91,66 @@
 .message-row--own .message__info {
     flex-direction: row-reverse;
 }
+
+/* Reply Section */
+.reply {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 25px;
+    box-sizing: border-box;
+}
+
+.reply__column:first-child {
+    width: 10%;
+}
+
+.reply__column:last-child {
+    width: 90%;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.reply i {
+    color: var(--gray);
+}
+
+.reply input {
+    height: 30px;
+    width: 100%;
+    border: var(--main-border);
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+.reply__column:last-child > i,
+.reply__column:last-child button {
+    position: absolute;
+    right: 0;
+}
+
+.reply__column:last-child > i {
+    right: 54px;
+}
+
+.reply__column:last-child button {
+    background-color: var(--yellow);
+    border: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.reply__column button i {
+    color: #2e363e;
+}
+
+.reply__column button:focus,
+.reply__column button:active {
+    outline: none;
+}
