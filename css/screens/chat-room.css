@@ -40,6 +40,7 @@
     width: 100%;
     display: flex;
     align-items: center;
+    margin-bottom: 25px;
 }
 
 .message-row img {
@@ -72,4 +73,21 @@
 .message__time {
     opacity: 0.8;
     font-size: 13px;
+}
+
+/* message-row-own */
+.message-row--own {
+    justify-content: flex-end;
+}
+
+.message-row--own .message__bubble {    
+    background-color: var(--yellow);
+    border-top-right-radius: 0px;
+    border-top-left-radius: 15px;
+    margin-left: 8px;
+    /* order: 1; */
+}
+
+.message-row--own .message__info {
+    flex-direction: row-reverse;
 }
