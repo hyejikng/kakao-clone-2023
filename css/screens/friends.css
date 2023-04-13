@@ -37,7 +37,7 @@
     align-items: center;
     font-size: 115px;
     animation: hideSplashScreen 0.4s ease-in-out forwards;
-    animation-delay:1.5s;
+    animation-delay:1.5 s;
 }
  /* Splash Screen Animation */
 
