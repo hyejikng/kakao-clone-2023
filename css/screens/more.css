@@ -11,3 +11,51 @@
 .user-component__column:nth-child(2) i {
     color: #2e363e;
 }
+
+.more-screen .icon-row {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 40px;
+}
+
+/* More-suggestions */
+.more-suggestions {
+    margin-top: 50px;
+    border-top: var(--main-border);
+    padding-top: 40px;
+}
+
+.more-suggestions__title {
+    margin-bottom: 30px;
+}
+
+/* More-suggestions-icons */
+.more-suggestions__icons {
+    display: flex;
+    align-items: center;
+}
+
+.more-suggestions__icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 30px;
+    color: var(--gray);
+}
+
+.more-suggestions__icon-img {
+    background-color: var(--yellow);
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.more-suggestions__icon-name {
+    color: var(--gray);
+    font-size: 13px;
+    margin-top: 10px;
+}
