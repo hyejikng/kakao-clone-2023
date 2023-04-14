@@ -127,3 +127,26 @@
 .open-post__column-right_like span {
     margin-left: 4px;
 }
+
+/* Animations */
+@keyframes heartBeat {
+    0% {
+        color: white;
+        transform: none;
+    }
+    50% {
+        color: tomato;
+        transform: scale(1.5);
+    }
+    100% {
+        color: white;
+        transform: none;
+    }
+}
+
+.open-post__column-right_like:hover i {
+    will-change: transform;
+    /* will-change는 애니메이션이 조금 더 부드럽게 적용될 수 있게 해준다.
+    미리 어떤변화를 줄지 명시해 주는 역할. */
+    animation: heartBeat 1s linear infinite;
+}
